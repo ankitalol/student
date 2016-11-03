@@ -1,8 +1,10 @@
 <?php
-class Pages extends CI_Controller
-{
-  function view ($page ='home'){
-    $this->load->view('studentpage');
-  }
+defined('BASEPATH') OR exit('No direct script access allowed');
+
+class pages extends CI_Controller {
+
+	public function view()
+	{
+		$this->load->view('paaggee');
+	}
 }
-?>    
